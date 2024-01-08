@@ -18,7 +18,9 @@ parameters = [
   { name = "dev.payment.user_port", value = "8080" },
   { name = "dev.payment.amqp_host", value = "rabbitmq-dev.msdevops72.online" },
   { name = "dev.payment.amqp_user", value = "roboshop" },
-  { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.msdevops72.online:27017/catalogue" }
+  { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.msdevops72.online:27017/catalogue" },
+  { name = "dev.user.reddis_host", value = "redis-dev.msdevops72.online" },
+  { name = "dev.user.mongo_url", value = "mongodb://mongodb-dev.msdevops72.online:27017/users" }
 ]
 passwords = [
   { name = "dev.mysql.password", value = "RoboShop@1" },

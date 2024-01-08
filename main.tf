@@ -6,7 +6,7 @@ resource "aws_ssm_parameter" "parameters" {
   key_id = "54baa543-c347-432e-ab40-108d5d0b67bb"
 }
 
-resource "aws_ssm_parameter" "parameters" {
+resource "aws_ssm_parameter" "passwords" {
   count  = length(var.passwords)
   name   = var.passwords[count.index].name
   value  = var.passwords[count.index].value

@@ -16,6 +16,10 @@ parameters = [
   { name = "dev.payment.amqp_host", value = " rabbitmq-dev.msdevops72.online" },
   { name = "dev.payment.amqp_user", value = " roboshop" },
   { name = "dev.payment.amqp_password", value = " roboshop123" },
+  { name = "dev.shipping.cart_endpoint", value = "cart-dev.msdevops72.online:8080" },
+  { name = "dev.shipping.db_host", value = "mysql-dev.msdevops72.online" },
+  { name = "dev.shipping.mysql_user", value = "root" },
+  { name = "dev.shipping.mysql_password", value = "RoboShop@1" }
 ]
 #passwords = [
 #  { name = "dev.shipping.mysql.password", value = "RoboShop@1" },

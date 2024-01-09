@@ -8,7 +8,14 @@ parameters = [
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.msdevops72.online" },
   { name = "dev.cart.catalogue_port", value = "8080" },
   { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.msdevops72.online:27017/catalogue" },
-  { name = "dev.catalogue.mongodb_endpoint", value = " mongodb-dev.msdevops72.online" }
+  { name = "dev.catalogue.mongodb_endpoint", value = " mongodb-dev.msdevops72.online" },
+  { name = "dev.payment.cart_host", value = " cart-dev.msdevops72.online" },
+  { name = "dev.payment.cart_port", value = " 8080" },
+  { name = "dev.payment.user_host", value = " user-dev.msdevops72.online" },
+  { name = "dev.payment.user_port", value = " 8080" },
+  { name = "dev.payment.amqp_host", value = " rabbitmq-dev.msdevops72.online" },
+  { name = "dev.payment.amqp_user", value = " roboshop" },
+  { name = "dev.payment.amqp_password", value = " roboshop123" },
 ]
 #passwords = [
 #  { name = "dev.shipping.mysql.password", value = "RoboShop@1" },

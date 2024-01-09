@@ -6,9 +6,9 @@ parameters = [
   { name = "dev.frontend.payment_url", value = "http://payment-dev.msdevops72.online:8080/" },
   { name = "dev.cart.redis_host", value = "redis-dev.msdevops72.online" },
   { name = "dev.cart.catalogue_host", value = "catalogue-dev.msdevops72.online" },
-  { name = "dev.cart.catalogue_port", value = "8080" }
-#  { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.msdevops72.online:27017/catalogue" },
-#  { name = "dev.catalogue.mongodb_endpoint", value = " mongodb-dev.msdevops72.online" }
+  { name = "dev.cart.catalogue_port", value = "8080" },
+  { name = "dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.msdevops72.online:27017/catalogue" },
+  { name = "dev.catalogue.mongodb_endpoint", value = " mongodb-dev.msdevops72.online" }
 ]
 #passwords = [
 #  { name = "dev.shipping.mysql.password", value = "RoboShop@1" },
